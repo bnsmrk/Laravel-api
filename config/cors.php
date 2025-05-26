@@ -6,7 +6,7 @@ return [
 
     'allowed_methods' => ['*'], // You can specify methods like ['GET', 'POST']
 
-    'allowed_origins' => ['http://192.168.169.6:8081'], // Replace '*' with specific domains in production
+    'allowed_origins' => ['https://laravel-api-master-6ik5ik.laravel.cloud'], // Replace '*' with specific domains in production
 
     'allowed_origins_patterns' => [],
 
