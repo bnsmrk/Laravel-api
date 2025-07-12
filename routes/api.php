@@ -27,7 +27,7 @@ Route::post("/register", function () {
     $data = request()->validate([
         'name' => 'required',
         'email' => 'required|email|unique:users',
-        'password' => 'required|confirmed', // Remove Password::defaults() here
+        'password' => 'required|confirmed', 
         'device_name' => 'required'
     ]);
 
